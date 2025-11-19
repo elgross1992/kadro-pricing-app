@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Developer",
-    "defaultRate": 85
+    "defaultRate": 100
   },
   {
     "id": 2,
@@ -12,27 +12,27 @@
   {
     "id": 3,
     "name": "Project Manager",
-    "defaultRate": 95
+    "defaultRate": 100
   },
   {
     "id": 4,
     "name": "Designer",
-    "defaultRate": 75
+    "defaultRate": 95
   },
   {
     "id": 5,
     "name": "QA Lead",
-    "defaultRate": 70
+    "defaultRate": 116
   },
   {
     "id": 6,
     "name": "Tech Lead",
-    "defaultRate": 110
+    "defaultRate": 120
   },
   {
     "id": 7,
     "name": "BSA",
-    "defaultRate": 90
+    "defaultRate": 100 
   },
   {
     "id": 8,

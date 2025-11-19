@@ -40,5 +40,53 @@
     "name": "Ryan K",
     "roleId": 6,
     "loadedRate": 116.05
+  },
+  {
+    "id": 8,
+    "name": "Noah T",
+    "roleId": 6,
+    "loadedRate": 112
+  },
+  {
+    "id": 9,
+    "name": "Ethan W",
+    "roleId": 6,
+    "loadedRate": 124
+  },
+  {
+    "id": 10,
+    "name": "Hunter",
+    "roleId": 7,
+    "loadedRate": 71
+  },
+  {
+    "id": 11,
+    "name": "Allison H",
+    "roleId": 3,
+    "loadedRate": 89
+  },
+  {
+    "id": 12,
+    "name": "Sean A",
+    "roleId": 1,
+    "loadedRate": 84
+  },
+  {
+    "id": 13,
+    "name": "Jack",
+    "roleId": 1,
+    "loadedRate": 102
+  },
+  {
+    "id": 14,
+    "name": "Jacob B",
+    "roleId": 1,
+    "loadedRate": 83
+  },
+  {
+    "id": 15,
+    "name": "Sabrina",
+    "roleId": 2,
+    "loadedRate": 82
   }
 ]
