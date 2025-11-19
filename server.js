@@ -4,11 +4,14 @@ const fs = require('fs').promises;
 const path = require('path');
 
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+// Serve static files from React build
+app.use(express.static(path.join(__dirname, 'client/dist')));
 
 // Data file paths
 const DATA_DIR = path.join(__dirname, 'data');
@@ -362,6 +365,11 @@ app.delete('/api/projects/:id', async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
+});
+
+// Catch-all route to serve React app for all non-API routes
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client/dist/index.html'));
 });
 
 // Start server
