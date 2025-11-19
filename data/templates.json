@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "name": "Shopify",
+    "platform": "Shopify",
+    "tasks": [
+      {
+        "id": 1,
+        "description": "Project Kickoff & Discovery",
+        "estimateDays": 2,
+        "roleId": 3
+      },
+      {
+        "id": 2,
+        "description": "Technical Architecture",
+        "estimateDays": 3,
+        "roleId": 6
+      },
+      {
+        "id": 3,
+        "description": "Theme Setup & Configuration",
+        "estimateDays": 5,
+        "roleId": 1
+      },
+      {
+        "id": 4,
+        "description": "Custom Theme Development",
+        "estimateDays": 10,
+        "roleId": 2
+      },
+      {
+        "id": 5,
+        "description": "Product Data Migration",
+        "estimateDays": 3,
+        "roleId": 7
+      },
+      {
+        "id": 6,
+        "description": "Third-Party Integrations",
+        "estimateDays": 5,
+        "roleId": 1
+      },
+      {
+        "id": 7,
+        "description": "QA Testing",
+        "estimateDays": 4,
+        "roleId": 5
+      },
+      {
+        "id": 8,
+        "description": "User Acceptance Testing",
+        "estimateDays": 2,
+        "roleId": 3
+      },
+      {
+        "id": 9,
+        "description": "Launch & Deployment",
+        "estimateDays": 1,
+        "roleId": 6
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "BigCommerce",
+    "platform": "BigCommerce",
+    "tasks": [
+      {
+        "id": 1,
+        "description": "Project Kickoff & Discovery",
+        "estimateDays": 2,
+        "roleId": 3
+      },
+      {
+        "id": 2,
+        "description": "Technical Architecture",
+        "estimateDays": 3,
+        "roleId": 6
+      },
+      {
+        "id": 3,
+        "description": "Stencil Theme Development",
+        "estimateDays": 12,
+        "roleId": 2
+      },
+      {
+        "id": 4,
+        "description": "Product Catalog Setup",
+        "estimateDays": 4,
+        "roleId": 7
+      },
+      {
+        "id": 5,
+        "description": "Payment Gateway Integration",
+        "estimateDays": 3,
+        "roleId": 1
+      },
+      {
+        "id": 6,
+        "description": "Shipping Configuration",
+        "estimateDays": 2,
+        "roleId": 1
+      },
+      {
+        "id": 7,
+        "description": "QA Testing",
+        "estimateDays": 5,
+        "roleId": 5
+      },
+      {
+        "id": 8,
+        "description": "User Acceptance Testing",
+        "estimateDays": 2,
+        "roleId": 3
+      },
+      {
+        "id": 9,
+        "description": "Launch & Deployment",
+        "estimateDays": 1,
+        "roleId": 6
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Adobe Commerce",
+    "platform": "Adobe Commerce",
+    "tasks": [
+      {
+        "id": 1,
+        "description": "Project Kickoff & Discovery",
+        "estimateDays": 3,
+        "roleId": 3
+      },
+      {
+        "id": 2,
+        "description": "Technical Architecture & Planning",
+        "estimateDays": 5,
+        "roleId": 6
+      },
+      {
+        "id": 3,
+        "description": "Infrastructure Setup",
+        "estimateDays": 3,
+        "roleId": 1
+      },
+      {
+        "id": 4,
+        "description": "Custom Module Development",
+        "estimateDays": 15,
+        "roleId": 1
+      },
+      {
+        "id": 5,
+        "description": "Frontend Theme Development",
+        "estimateDays": 12,
+        "roleId": 2
+      },
+      {
+        "id": 6,
+        "description": "Data Migration",
+        "estimateDays": 8,
+        "roleId": 7
+      },
+      {
+        "id": 7,
+        "description": "Third-Party Integrations",
+        "estimateDays": 7,
+        "roleId": 1
+      },
+      {
+        "id": 8,
+        "description": "Performance Optimization",
+        "estimateDays": 4,
+        "roleId": 6
+      },
+      {
+        "id": 9,
+        "description": "QA Testing",
+        "estimateDays": 6,
+        "roleId": 5
+      },
+      {
+        "id": 10,
+        "description": "User Acceptance Testing",
+        "estimateDays": 3,
+        "roleId": 3
+      },
+      {
+        "id": 11,
+        "description": "Launch & Deployment",
+        "estimateDays": 2,
+        "roleId": 6
+      }
+    ]
+  }
+]

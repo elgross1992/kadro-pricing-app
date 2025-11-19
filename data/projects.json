@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "createdAt": "2025-11-19T20:03:38.745Z",
+    "name": "TNG",
+    "platform": "BigCommerce",
+    "templateId": 2,
+    "status": "draft",
+    "tasks": [
+      {
+        "id": 1,
+        "description": "Project Kickoff & Discovery",
+        "estimateDays": 2,
+        "roleId": 3,
+        "resourceId": null
+      },
+      {
+        "id": 2,
+        "description": "Technical Architecture",
+        "estimateDays": 3,
+        "roleId": 6,
+        "resourceId": null
+      },
+      {
+        "id": 3,
+        "description": "Stencil Theme Development",
+        "estimateDays": 12,
+        "roleId": 2,
+        "resourceId": null
+      },
+      {
+        "id": 4,
+        "description": "Product Catalog Setup",
+        "estimateDays": 4,
+        "roleId": 7,
+        "resourceId": null
+      },
+      {
+        "id": 5,
+        "description": "Payment Gateway Integration",
+        "estimateDays": 3,
+        "roleId": 1,
+        "resourceId": null
+      },
+      {
+        "id": 6,
+        "description": "Shipping Configuration",
+        "estimateDays": 2,
+        "roleId": 1,
+        "resourceId": null
+      },
+      {
+        "id": 7,
+        "description": "QA Testing",
+        "estimateDays": 5,
+        "roleId": 5,
+        "resourceId": null
+      },
+      {
+        "id": 8,
+        "description": "User Acceptance Testing",
+        "estimateDays": 2,
+        "roleId": 3,
+        "resourceId": null
+      },
+      {
+        "id": 9,
+        "description": "Launch & Deployment",
+        "estimateDays": 1,
+        "roleId": 6,
+        "resourceId": null
+      }
+    ],
+    "minMargin": 30,
+    "maxMargin": 40
+  }
+]

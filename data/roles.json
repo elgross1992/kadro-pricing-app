@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Developer",
+    "defaultRate": 85
+  },
+  {
+    "id": 2,
+    "name": "Front End Developer",
+    "defaultRate": 80
+  },
+  {
+    "id": 3,
+    "name": "Project Manager",
+    "defaultRate": 95
+  },
+  {
+    "id": 4,
+    "name": "Designer",
+    "defaultRate": 75
+  },
+  {
+    "id": 5,
+    "name": "QA Lead",
+    "defaultRate": 70
+  },
+  {
+    "id": 6,
+    "name": "Tech Lead",
+    "defaultRate": 110
+  },
+  {
+    "id": 7,
+    "name": "BSA",
+    "defaultRate": 90
+  },
+  {
+    "id": 8,
+    "name": "Executive",
+    "defaultRate": 150
+  }
+]

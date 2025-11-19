@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Mitch S",
+    "roleId": 8,
+    "loadedRate": 135.55
+  },
+  {
+    "id": 2,
+    "name": "Scott V",
+    "roleId": 8,
+    "loadedRate": 140.55
+  },
+  {
+    "id": 3,
+    "name": "Christen C",
+    "roleId": 7,
+    "loadedRate": 125.05
+  },
+  {
+    "id": 4,
+    "name": "Harrison",
+    "roleId": 4,
+    "loadedRate": 94.06
+  },
+  {
+    "id": 5,
+    "name": "Elyse",
+    "roleId": 3,
+    "loadedRate": 109.09
+  },
+  {
+    "id": 6,
+    "name": "Patrick C",
+    "roleId": 6,
+    "loadedRate": 121.36
+  },
+  {
+    "id": 7,
+    "name": "Ryan K",
+    "roleId": 6,
+    "loadedRate": 116.05
+  }
+]
