@@ -368,9 +368,7 @@ app.delete('/api/projects/:id', async (req, res) => {
 });
 
 // Catch-all route to serve React app for all non-API routes
-app.use((req, res) => {
-  res.sendFile(path.join(__dirname, 'client/dist/index.html'));
-});
+
 
 // Start server
 initializeData().then(() => {
