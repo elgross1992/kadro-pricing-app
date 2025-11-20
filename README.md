@@ -38,18 +38,13 @@ A modern web application for managing eCommerce project estimates, built with Re
 
 1. **Clone or download this project**
 
-2. **Install backend dependencies:**
+2. **Install backend dependencies (this also installs/builds the frontend):**
 ```bash
 cd kadro-pricing-app
 npm install
 ```
 
-3. **Install frontend dependencies:**
-```bash
-cd client
-npm install
-cd ..
-```
+> `npm install` now triggers a `postinstall` script that installs the frontend dependencies and runs `npm run build` inside `client/`. If you prefer to manage the frontend manually you still can (`cd client && npm install`).
 
 ### Running the Application
 
@@ -130,8 +125,8 @@ All data is stored in JSON files in the `data/` directory:
 1. **Railway.app** (Recommended):
    - Connect your Git repo
    - Railway auto-detects Node.js
-   - Set build command: `cd client && npm install && npm run build`
-   - Set start command: `npm start`
+   - Build command: leave as default (`npm install`) so the root and client both install/build automatically via `postinstall`
+   - Start command: `npm start`
    - Done!
 
 2. **Render.com**:
