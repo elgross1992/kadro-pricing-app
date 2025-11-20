@@ -374,5 +374,6 @@ app.delete('/api/projects/:id', async (req, res) => {
 initializeData().then(() => {
   app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
+
   });
 });
