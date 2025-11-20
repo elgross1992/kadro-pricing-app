@@ -367,13 +367,18 @@ app.delete('/api/projects/:id', async (req, res) => {
   }
 });
 
-// Catch-all route to serve React app for all non-API routes
+// Catch-all route to serve React app for all non-API routes (Express 5 compatible)
+app.get('*', (req, res, next) => {
+  if (req.path.startsWith('/api')) {
+    return next();
+  }
 
+  res.sendFile(path.join(__dirname, 'client/dist/index.html'));
+});
 
 // Start server
 initializeData().then(() => {
   app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
-
   });
 });
